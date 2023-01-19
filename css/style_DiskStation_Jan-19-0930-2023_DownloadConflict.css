@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+}
+
+header{
+    display: grid;
+    grid-column: 1/4;
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: red;
+    height: 50px;
+}
+
+aside.left{
+    display: grid;
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: red;
+    height: 50px;
+}
+
+article{
+    
+}
